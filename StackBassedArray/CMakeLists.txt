@@ -7,11 +7,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 include_directories(include)
 
-# Find all .cpp files in src/
-file(GLOB SRC_FILE src/*.cpp) 
 
 # Create the executable
-add_executable(${PROJECT_NAME} ${SRC_FILE})
+add_executable(${PROJECT_NAME} src/main.cpp)
 
 target_include_directories(${PROJECT_NAME} PUBLIC include)
 

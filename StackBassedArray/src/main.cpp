@@ -2,8 +2,8 @@
 #include "StackBassedArray.h"
     
 int main(){
-    Stack S1;
-    Stack S2(5);
+    Stack <int> S1;
+    Stack <int> S2(5);
     std::cout << "Length Stack S1 " << S1.Length() << std::endl; // 0
     std::cout << "Length Stack S2 " << S2.Length() << std::endl; // 0
     std::cout << "S1 Isempty " << S1.Isempty() << std::endl; // 1
