@@ -10,7 +10,7 @@ int main(){
     std::cout << "S2 Isemtpy " << S2.Isempty() << std::endl; // 1
     std::cout << "size Stack S1 " << S1.Getsize() << std::endl; // 0
     std::cout << "size Stack S2 " << S2.Getsize() << std::endl; // 5 
-    S1.Push(3);
+    S1.Push(3); // Stack not initialized
     std::cout << "S1 Isempty " << S1.Isempty() << std::endl; // 1
     std::cout << " S1 : ";  S1.Display(); //Stack is empty
     S2.Push(3); S2.Push(2); S2.Push(1);
@@ -26,6 +26,9 @@ int main(){
     std::cout << "Length Stack S2 " << S2.Length() << std::endl; // 4
     std::cout << "S2 Full : " << S2.Full() << std::endl; // 0
     std::cout << "index numer 3 : " << S2.Peek(3) << std::endl; // 2
+    std::cout << "index numer 6 : " << S2.Peek(6) << std::endl; // 0
+    std::cout << "index numer 0 : " << S2.Peek(0) << std::endl; // 0
+
 
 
     return 0;
