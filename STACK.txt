@@ -18,3 +18,12 @@ There are two ways of implementing stack ADT;
 
 Array: Fast and simple but has a fixed size. If you push too much, you’re stuck unless you resize it.
 Linked List: Grows dynamically—perfect if you don’t know how big your stack will get, though it uses a bit more memory for pointers.
+
+  - Array: Best for known, fixed-size needs.
+  - Linked List: Ideal for unpredictable sizes.
+
+- Use Cases:
+  - Reversing data.
+  - Parsing expressions (balancing parentheses, converting infix to postfix).
+  - Evaluating postfix expressions (calculators).
+  - Backtracking algorithms (maze solving).
